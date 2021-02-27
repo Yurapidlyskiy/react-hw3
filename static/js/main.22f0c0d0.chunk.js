@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-hw3"]=this["webpackJsonpreact-hw3"]||[]).push([[0],{3:function(e,t,c){"use strict";c.r(t);var n=c(0),a=c.n(n),r=c(2),s=c.n(r),i=a.a.createElement("img",{src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIH6F72cFWT2v_sIYFTbLXIZE0wOmIh54d4g&usqp=CAU",alt:"sorry, img is loading"}),m=a.a.createElement("h1",{},"text"),d=a.a.createElement("div",{children:[i,m]});s.a.render(d,document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.22f0c0d0.chunk.js.map
