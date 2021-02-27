@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const blockImg = React.createElement(
+    "img", 
+    {
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIH6F72cFWT2v_sIYFTbLXIZE0wOmIh54d4g&usqp=CAU",
+        alt: "sorry, img is loading"
+    })
+
+const blockH1 = React.createElement(
+    "h1",{},"text",
+)
+const blockDiv = React.createElement(
+    "div",
+    {
+        children: [blockImg, blockH1],
+    }
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(blockDiv, document.getElementById("root"));
